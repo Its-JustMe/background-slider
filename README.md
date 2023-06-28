@@ -1,11 +1,11 @@
 <h1 align="center">Background Slider</h1>
 <img src="./assets/imgs/site.png" align="center">
-<h2 align="center">Meu portfólio de Desenvolvedor Web, contendo todos os meus projetos</h2>
+<h2 align="center">Um slider simples de imagens de fundo com tema futurista</h2>
 
 <h2>➢ O que é este projeto?</h2>
 
 <p>
-  Este projeto é uma aplicação web chamada Background Slider que permite aos usuários
+  Este projeto é uma aplicação web que permite aos usuários
   explorarem uma coleção de imagens de plano de fundo e escolherem a que desejam usar em seu dispositivo. 
   A aplicação foi desenvolvida utilizando tecnologias web como HTML, CSS e JavaScript.
 </p>
