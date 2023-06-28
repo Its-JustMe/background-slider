@@ -57,7 +57,7 @@ i.arrow-btn-left {
 
 .slide {
     display: none;
-    width: clamp(80vw, 37.5em, 28.5em);
+    width: clamp(80vw, 37.5em, 22.5em);
     height: 400px;
     background-size: cover;
 
