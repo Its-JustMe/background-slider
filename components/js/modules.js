@@ -66,4 +66,13 @@ export function bgSlider (slides) {
         avancarSlide(slides, slide_atual);
         changeBackgroundImage(slides, slide_atual);
     });
+
+    setInterval(function () {
+        slide_atual++;
+        slide_atual = slide_atual > slides.length - 1 ? 0 : slide_atual;
+
+        clearSlides(slides);
+        avancarSlide(slides, slide_atual);
+        changeBackgroundImage(slides, slide_atual);
+    }, 10000);
 }
