@@ -12,26 +12,32 @@ export function clearSlides (slides) {
 /** Função que avança um slide na página
  * @param { HTMLDivElement[] } slides Array contendo todos os slides da página 
  * @param { number } index_slide Posição do slide que será mostrado na página
+ * 
+ * @returns { HTMLDivElement } Retorna na página o próximo slide
  */
 export function avancarSlide (slides, index_slide) {
-    slides[index_slide].classList.add('active');
+    return slides[index_slide].classList.add('active');
 }
 
 /** Função que Troca a imagem de fundo pela imagem apresentada no slide
  * @param { HTMLDivElement[] } slides Array contendo todos os slides da página 
  * @param { number } slide_atual Posição do slide que será mostrado na página
+ * 
+ * @returns { HTMLElement } Retorna o body com um novo estilo de Imagem de Fundo
  */
 export function changeBackgroundImage (slides, slide_atual) {
     const body = document.body;
-    body.style.backgroundImage = 'var(--bg-shadow),' + slides[slide_atual].style.backgroundImage;
+    return body.style.backgroundImage = 'var(--bg-shadow),' + slides[slide_atual].style.backgroundImage;
 }
 
 /** Função que volta um slide na página
  * @param { HTMLDivElement[] } slides Array contendo todos os slides da página 
  * @param { number } index_slide Posição do slide que será mostrado na página
+ * 
+ * @returns { HTMLDivElement } Retorna na página o slide anterior
  */
 export function voltarSlide (slides, index_slide) {
-    slides[index_slide].classList.remove('active');
+    return slides[index_slide].classList.remove('active');
 }
 
 /** Função responsável pelas interações com o Slider
