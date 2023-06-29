@@ -9,7 +9,7 @@
   explorarem uma coleção de imagens de plano de fundo e escolherem a que desejam usar em seu dispositivo. 
   A aplicação foi desenvolvida utilizando tecnologias web como HTML, CSS e JavaScript.
 </p>
-<p> Você pode acessar o site através deste link: https://my-portfolio-xdef4lt.vercel.app/](https://background-slider-tawny.vercel.app/</p>
+<p> Você pode acessar o site através deste link: https://background-slider-tawny.vercel.app/</p>
 
 <h2> ➢ Outras informações</h2>
 <ul>
